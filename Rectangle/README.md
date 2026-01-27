@@ -19,3 +19,6 @@ class Rectangle {
     }
 }
 ~~~
+###  Output
+<img width="630" height="183" alt="image" src="https://github.com/user-attachments/assets/f1a59aa4-5d33-4eed-b999-470a4bc49412" />
+
