@@ -1,19 +1,18 @@
 # Command_Line
 ### Code
 ~~~
-import java.text.DecimalFormat;
-
-class CommandLine {
+public class TriangleArea {
     public static void main(String[] args) {
+        if (args.length != 2) {
+            System.out.println("Usage: java TriangleArea <base> <height>");
+            return;
+        }
 
-            double width = Double.parseDouble(args[0]);
-            double height = Double.parseDouble(args[1]);
-            double area = width * height;
-            
-            DecimalFormat df = new DecimalFormat("0.000");
-	
-            System.out.println("Area: " + df.format(area));
+        double base = Double.parseDouble(args[0]);
+        double height = Double.parseDouble(args[1]);
+        double area = 0.5 * base * height;
 
+        System.out.println("Area of Triangle = " + area);
     }
 }
 ~~~
