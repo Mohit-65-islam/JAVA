@@ -1,4 +1,4 @@
-# Rectangle.java
+# Rectangle
 ### code:
 ~~~
 import java.text.DecimalFormat;
