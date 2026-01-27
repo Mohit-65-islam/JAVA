@@ -1,18 +1,24 @@
 # Command_Line
 ### Code
 ~~~
+import java.util.Scanner;
+
 public class TriangleArea {
     public static void main(String[] args) {
-        if (args.length != 2) {
-            System.out.println("Usage: java TriangleArea <base> <height>");
-            return;
-        }
 
-        double base = Double.parseDouble(args[0]);
-        double height = Double.parseDouble(args[1]);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter base: ");
+        double base = sc.nextDouble();
+
+        System.out.print("Enter height: ");
+        double height = sc.nextDouble();
+
         double area = 0.5 * base * height;
 
         System.out.println("Area of Triangle = " + area);
+
+        sc.close();
     }
 }
 ~~~
