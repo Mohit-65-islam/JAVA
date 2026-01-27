@@ -1,4 +1,4 @@
-# SimpleCalculator
+# Simple Calculator
 
 ### Code
 ~~~
